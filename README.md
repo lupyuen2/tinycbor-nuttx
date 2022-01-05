@@ -2,7 +2,7 @@
 
 Read the articles...
 
--   ["TinyCBOR on Apache NuttX OS"](https://lupyuen.github.io/articles/cbor2)
+-   ["Encode Sensor Data with CBOR on Apache NuttX OS"](https://lupyuen.github.io/articles/cbor2)
 
 -   ["LoRaWAN on Apache NuttX OS"](https://lupyuen.github.io/articles/lorawan3)
 
