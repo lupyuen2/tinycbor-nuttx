@@ -32,13 +32,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#if defined(__unix__) || defined(__APPLE__)
+#if defined(__unix__) || defined(__APPLE__) || defined(__NuttX__)
 #  include <unistd.h>
 #endif
 #ifdef __APPLE__
 typedef int RetType;
 typedef int LenType;
 #elif __linux__
+typedef ssize_t RetType;
+typedef size_t LenType;
+#elif __NuttX__
 typedef ssize_t RetType;
 typedef size_t LenType;
 #else

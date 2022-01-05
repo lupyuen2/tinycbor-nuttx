@@ -41,6 +41,7 @@ tags
 *.flc
 .*.swp
 tinycbor.pc
+.depend
 
 # Visual Studio generated files
 *.ib_pdb_index
