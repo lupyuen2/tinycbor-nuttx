@@ -4,24 +4,17 @@
 #
 
 menuconfig LIBTINYCBOR
-	bool "Semtech TINYCBOR Library"
+	bool "TinyCBOR Library"
 	default n
 	---help---
-		Enable build for Semtech TINYCBOR functions
+		Enable build for TinyCBOR library
 
 if LIBTINYCBOR
 
 config LIBTINYCBOR_DEBUG
-	bool "Libtinycbor debugging"
+	bool "TinyCBOR debugging"
 	default n
 	---help---
-		Enable debugging for libtinycbor
-
-config LIBTINYCBOR_PRECISION
-	int "Libtinycbor precision [0/1/2]"
-	default 0
-
-config LIBTINYCBOR_FOC_VABC
-	bool "Libtinycbor FOC includes voltage abc frame"
+		Enable debugging for TinyCBOR library
 
 endif # LIBTINYCBOR
