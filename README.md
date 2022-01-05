@@ -19,7 +19,7 @@ Next update the Makefiles and Kconfig...
 
     Change "__sx1262__" to "__tinycbor__", preserve case
 
--   [TODO: See the modified Makefiles and Kconfig]()
+-   [See the modified Makefiles and Kconfig](https://github.com/lupyuen/incubator-nuttx/commit/05c7dc5b86d7b59c76a03413020b2d1ccb2cfc1b)
 
 Then update the NuttX Build Config...
 
