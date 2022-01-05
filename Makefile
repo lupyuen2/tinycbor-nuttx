@@ -21,10 +21,18 @@
 include $(TOPDIR)/Make.defs
 
 ifeq ($(CONFIG_LIBTINYCBOR),y)
-CSRCS += src/radio.c
-CSRCS += src/sx126x.c
-CSRCS += src/sx126x-nuttx.c
-CSRCS += lib_misc.c
+CSRCS += src/cborencoder.c
+CSRCS += src/cborencoder_close_container_checked.c
+CSRCS += src/cborencoder_float.c
+CSRCS += src/cborerrorstrings.c
+CSRCS += src/cborparser.c
+CSRCS += src/cborparser_dup_string.c
+CSRCS += src/cborparser_float.c
+CSRCS += src/cborpretty.c
+CSRCS += src/cborpretty_stdio.c
+CSRCS += src/cbortojson.c
+CSRCS += src/cborvalidation.c
+CSRCS += src/open_memstream.c
 endif
 
 AOBJS = $(ASRCS:.S=$(OBJEXT))

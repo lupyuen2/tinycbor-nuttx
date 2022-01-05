@@ -6,6 +6,7 @@ pcviewer.cfg
 *.la
 *.core
 *.d
+*.ddc
 *.dylib
 *.moc
 *.o
