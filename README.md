@@ -6,6 +6,12 @@ Read the articles...
 
 -   ["LoRaWAN on Apache NuttX OS"](https://lupyuen.github.io/articles/lorawan3)
 
+To test the TinyCBOR Library, run this NuttX App...
+
+-   [lupyuen/tinycbor_test](https://github.com/lupyuen/tinycbor_test)
+
+# Install Library
+
 To add this repo to your NuttX project...
 
 ```bash
